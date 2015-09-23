@@ -15,23 +15,10 @@
 		038DF7BC15CB541A00E3558C /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038DF7BB15CB541A00E3558C /* RSAppDelegate.m */; };
 		038DF7BF15CB541A00E3558C /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038DF7BE15CB541A00E3558C /* RSViewController.m */; };
 		038DF7C215CB541A00E3558C /* RSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038DF7C015CB541A00E3558C /* RSViewController.xib */; };
-		038DF7CA15CB541A00E3558C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DF7C915CB541A00E3558C /* SenTestingKit.framework */; };
-		038DF7CB15CB541B00E3558C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DF7AB15CB541A00E3558C /* UIKit.framework */; };
-		038DF7CC15CB541B00E3558C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DF7AD15CB541A00E3558C /* Foundation.framework */; };
-		038DF7D415CB541B00E3558C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 038DF7D215CB541B00E3558C /* InfoPlist.strings */; };
 		038DF7E315CB54F200E3558C /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 038DF7E215CB54F200E3558C /* UIView+RSAdditions.m */; };
-		038DF7FA15CB5B0400E3558C /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DF7F015CB57A400E3558C /* libKiwi.a */; };
-		038DF7FF15CB5C8B00E3558C /* UIViewAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 038DF7FE15CB5C8B00E3558C /* UIViewAdditionsSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		038DF7CD15CB541B00E3558C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 038DF79E15CB541A00E3558C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 038DF7A615CB541A00E3558C;
-			remoteInfo = UIViewAdditions;
-		};
 		038DF7EF15CB57A400E3558C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 038DF7E415CB57A400E3558C /* Kiwi.xcodeproj */;
@@ -76,7 +63,6 @@
 		038DF7BD15CB541A00E3558C /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
 		038DF7BE15CB541A00E3558C /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		038DF7C115CB541A00E3558C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSViewController.xib; sourceTree = "<group>"; };
-		038DF7C815CB541A00E3558C /* UIViewAdditionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAdditionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038DF7C915CB541A00E3558C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		038DF7D115CB541B00E3558C /* UIViewAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewAdditionsTests-Info.plist"; sourceTree = "<group>"; };
 		038DF7D315CB541B00E3558C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -97,17 +83,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		038DF7C415CB541A00E3558C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038DF7FA15CB5B0400E3558C /* libKiwi.a in Frameworks */,
-				038DF7CA15CB541A00E3558C /* SenTestingKit.framework in Frameworks */,
-				038DF7CB15CB541B00E3558C /* UIKit.framework in Frameworks */,
-				038DF7CC15CB541B00E3558C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				038DF7A715CB541A00E3558C /* UIViewAdditions.app */,
-				038DF7C815CB541A00E3558C /* UIViewAdditionsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,25 +199,6 @@
 			productReference = 038DF7A715CB541A00E3558C /* UIViewAdditions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		038DF7C715CB541A00E3558C /* UIViewAdditionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 038DF7DD15CB541B00E3558C /* Build configuration list for PBXNativeTarget "UIViewAdditionsTests" */;
-			buildPhases = (
-				038DF7C315CB541A00E3558C /* Sources */,
-				038DF7C415CB541A00E3558C /* Frameworks */,
-				038DF7C515CB541A00E3558C /* Resources */,
-				038DF7C615CB541A00E3558C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				038DF7CE15CB541B00E3558C /* PBXTargetDependency */,
-			);
-			name = UIViewAdditionsTests;
-			productName = UIViewAdditionsTests;
-			productReference = 038DF7C815CB541A00E3558C /* UIViewAdditionsTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -273,7 +228,6 @@
 			projectRoot = "";
 			targets = (
 				038DF7A615CB541A00E3558C /* UIViewAdditions */,
-				038DF7C715CB541A00E3558C /* UIViewAdditionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,31 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		038DF7C515CB541A00E3558C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038DF7D415CB541B00E3558C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		038DF7C615CB541A00E3558C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		038DF7A315CB541A00E3558C /* Sources */ = {
@@ -357,23 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		038DF7C315CB541A00E3558C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038DF7FF15CB5C8B00E3558C /* UIViewAdditionsSpec.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		038DF7CE15CB541B00E3558C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 038DF7A615CB541A00E3558C /* UIViewAdditions */;
-			targetProxy = 038DF7CD15CB541B00E3558C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		038DF7B415CB541A00E3558C /* InfoPlist.strings */ = {
@@ -474,44 +388,6 @@
 			};
 			name = Release;
 		};
-		038DF7DE15CB541B00E3558C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewAdditions.app/UIViewAdditions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewAdditions/UIViewAdditions-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
-				INFOPLIST_FILE = "UIViewAdditionsTests/UIViewAdditionsTests-Info.plist";
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		038DF7DF15CB541B00E3558C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewAdditions.app/UIViewAdditions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewAdditions/UIViewAdditions-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
-				INFOPLIST_FILE = "UIViewAdditionsTests/UIViewAdditionsTests-Info.plist";
-				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,15 +405,6 @@
 			buildConfigurations = (
 				038DF7DB15CB541B00E3558C /* Debug */,
 				038DF7DC15CB541B00E3558C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		038DF7DD15CB541B00E3558C /* Build configuration list for PBXNativeTarget "UIViewAdditionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				038DF7DE15CB541B00E3558C /* Debug */,
-				038DF7DF15CB541B00E3558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
